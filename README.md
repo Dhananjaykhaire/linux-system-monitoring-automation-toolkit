@@ -23,14 +23,11 @@ Git/GitHub, AWS, Docker, and other DevOps technologies.
 
 ## Project Progress
 
-### Stage 1 – Linux System Monitoring
-
-Completed.
+### Stage 1 – Linux System Monitoring ✅ Completed
 
 The initial stage focuses on basic Linux system health monitoring.
 
 The monitoring script checks information such as:
-
 - System date
 - Hostname
 - System uptime
@@ -39,29 +36,25 @@ The monitoring script checks information such as:
 - System load
 - Network information
 
-Script:
+**Script:**  
+`scripts/system_health.sh`
 
-```text
-scripts/system_health.sh
+---
 
-### Stage 2 – Networking
-
-Completed.
+### Stage 2 – Networking ✅ Completed
 
 The networking stage focuses on basic network connectivity
 and service/port checks.
 
 Implemented tests include:
+- Internet connectivity using `ping`
+- DNS resolution using `nslookup`
+- HTTP connectivity using `curl`
+- Listening ports using `ss`
+- Local port availability using `nc`
 
-Internet connectivity using ping
-DNS resolution using nslookup
-HTTP connectivity using curl
-Listening ports using ss
-Local port availability using nc
-
-Script:
-
-```text
+**Example commands:**
+```bash
 ping -c 4 8.8.8.8
 nslookup google.com
 curl -I https://example.com
