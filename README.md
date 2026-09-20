@@ -1,2 +1,45 @@
-#📌 Linux-system-monitoring-automation-toolkit
-Linux System Monitoring &amp; Automation Toolkit – A progressive DevOps learning project starting with Bash‑based Linux monitoring and evolving into full automation and observability. Roadmap includes CI/CD with Jenkins, Infrastructure as Code with Terraform &amp; Ansible, and monitoring/logging with Prometheus, Grafana, ELK Stack, and Loki.
+# Linux System Monitoring & Automation Toolkit
+
+A beginner-friendly DevOps project focused on Linux system monitoring,
+network connectivity checks, and automation using Bash scripting.
+
+## Project Objective
+
+The goal of this project is to gradually build a practical DevOps
+toolkit while learning Linux, Networking, Bash/Shell Scripting,
+Git/GitHub, AWS, Docker, and other DevOps technologies.
+
+## Technologies
+
+- Linux
+- Bash / Shell Scripting
+- Networking
+- Git
+- GitHub
+- AWS
+- Docker
+- Kubernetes
+- DevOps Fundamentals
+
+## Project Progress
+
+### Stage 1 – Linux System Monitoring
+
+Completed.
+
+The initial stage focuses on basic Linux system health monitoring.
+
+The monitoring script checks information such as:
+
+- System date
+- Hostname
+- System uptime
+- Memory usage
+- Disk usage
+- System load
+- Network information
+
+Script:
+
+```text
+scripts/system_health.sh
